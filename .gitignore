@@ -1,3 +1,23 @@
 .DS_Store
 *.tmp
 *.log
+
+# Security: Prevent accidental commits of identifying information
+*.json
+.screenshot_mapping.json
+.screenshot_reverse.json
+mapping.json
+
+# Block files with company/offer names
+*madrivo*
+*americor*
+*sono-bello*
+*-cr[0-9]-*
+*-general-*
+[0-9][0-9][0-9][0-9][0-9][0-9]-*
+creative_*
+Creative_*
+
+# Only allow anonymous 8-character hex filenames
+# Example allowed: 8787d6ac.png
+# Example blocked: 107354-general-americor-cr1-07192024.png
