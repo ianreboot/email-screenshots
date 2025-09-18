@@ -1,14 +1,17 @@
-# Screenshot Repository
+# Email Screenshots Repository
 
-This repository contains anonymized screenshot assets.
+## Purpose
+Storage for email creative screenshots used in the Madrivo email analysis project.
 
-## Structure
-- Each folder uses an 8-character hash identifier
-- Files are named with abbreviated descriptors:
-  - `df.png` - Desktop Full
-  - `da.png` - Desktop Above-the-fold
-  - `mf.png` - Mobile Full
-  - `ma.png` - Mobile Above-the-fold
+## Structure (v3.0 - Updated September 2025)
+- **Single screenshot per creative** (no more 4-view system)
+- **Direct creative IDs as filenames** (no more anonymous hashing)
+- **Example**: `107356-general-americor-cr3-07192024.png`
 
-## Privacy
-All identifiable information has been removed from filenames and folder structures.
+## Usage
+1. Upload screenshot to this repository
+2. Get raw GitHub URL: `https://raw.githubusercontent.com/ianreboot/email-screenshots/main/[filename]`
+3. Use URL in Airtable Creative Screenshot field
+
+## Privacy Note
+Screenshots contain only creative content, no PII or sensitive data.
